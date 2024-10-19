@@ -29,9 +29,11 @@ namespace ConsoleApp4
                         break; 
                     }
                 }
-            
-
-            
+        
+if(n == 1 && n == 0){
+     Console.WriteLine("ne sade deyil nede murekkeb deyil");
+}
+            else{
             if (isPrime)
             {
                 Console.WriteLine($"{n} - simple.");
@@ -39,6 +41,7 @@ namespace ConsoleApp4
             else
             {
                 Console.WriteLine($"{n} - complex.");
+            }
             }
 
 
